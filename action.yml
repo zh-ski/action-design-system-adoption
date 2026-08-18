@@ -40,7 +40,7 @@ runs:
     - name: Setup Node
       uses: actions/setup-node@v5
       with:
-        node-version: 20
+        node-version: 24
 
     - name: Checkout code
       uses: actions/checkout@v5
